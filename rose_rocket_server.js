@@ -104,14 +104,12 @@ function moveDriver() {
         traveledDist = 0
 
         // driver arrived
-console.log( idxCurrentLeg, Legs.length )
         if( idxCurrentLeg === Legs.length - 1) {   // arrived at the final stop
 
             console.log('[Completed Simulation]')
             arrivedFinal = true
             console.log( '[STOP Simulation]')
             clearInterval(timerMoveID)
-            //clearInterval(timerSendTimestamp)
         }
         else {
            
