@@ -32,7 +32,7 @@ module.exports = {
         { "startStop": "H", "endStop": "I", "speedLimit": 100, "legID": "HI" },
         { "startStop": "I", "endStop": "J", "speedLimit": 50, "legID": "IJ" },
         { "startStop": "J", "endStop": "K", "speedLimit": 100, "legID": "JK" },
-        { "startStop": "K", "endStop": "L", "speedLimit": 60,"legID": "KL"  }
+        { "startStop": "K", "endStop": "L", "speedLimit": 60, "legID": "KL"  }
     ],
 
     BonusDriverLocation : {
